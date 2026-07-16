@@ -93,6 +93,19 @@ Nuestra infraestructura usa **Cloudflare** como red intermediaria de tránsito
 (protección y cifrado del tráfico). Cloudflare procesa el tráfico como proveedor de
 infraestructura: https://www.cloudflare.com/privacypolicy/
 
+### 4.4 Otros servicios que la Aplicación consulta
+
+- **Tasas de cambio**: para convertir entre divisas, la Aplicación consulta tasas
+  públicas (frankfurter.app y open.er-api.com). Solo se solicita la tasa; **no viaja
+  ningún dato suyo** en esas consultas.
+- **Mapa de gastos (OpenStreetMap)**: los mosaicos del mapa se descargan de
+  servidores de OpenStreetMap al mover el mapa, como en cualquier app de mapas.
+  Las ubicaciones que usted asigna a sus gastos se guardan **solo en su
+  dispositivo** y no se envían a nuestros servidores.
+- **Búsqueda de direcciones (geocodificación)**: si usted busca una dirección en el
+  mapa, esa búsqueda la resuelve el servicio del sistema de su teléfono
+  (Apple/Google) conforme a sus políticas.
+
 ## 5. Almacenamiento local
 
 Todos los datos que usted ingresa se almacenan ÚNICAMENTE en su dispositivo:
