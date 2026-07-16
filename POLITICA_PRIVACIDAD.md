@@ -1,159 +1,222 @@
-# Política de Privacidad - Finance Tracker
+# Política de Privacidad — Gastos y Ahorro - Luxor
 
-**Última actualización**: 6 de marzo de 2026
+**Última actualización**: 16 de julio de 2026
 
-**Desarrollador**: Luxor Services  
-**Contacto**: cuentas_desarrollo_939@proton.me  
+**Desarrollador**: Luxor Services
+**Contacto**: cuentas_desarrollo_939@proton.me
 **Sitio web**: https://luxor-services.com
+
+Esta política aplica a la aplicación **"Gastos y Ahorro - Luxor"** (también conocida
+como Finance Tracker, paquete `com.luxorservices.financetracker`) en **Android
+(Google Play)** y en **iOS (App Store)**.
 
 ## 1. Introducción
 
-Luxor Services ("nosotros", "nuestro" o "nos") opera la aplicación móvil Finance Tracker (en adelante, "la Aplicación").
+Luxor Services ("nosotros", "nuestro" o "nos") opera la aplicación móvil Gastos y
+Ahorro - Luxor (en adelante, "la Aplicación").
 
-Esta página le informa sobre nuestras políticas con respecto a la recopilación, uso y divulgación de datos personales cuando utiliza nuestra Aplicación.
+Esta página le informa sobre nuestras políticas con respecto a la recopilación, uso y
+divulgación de datos cuando utiliza nuestra Aplicación.
 
-**Compromiso de Privacidad**: Finance Tracker está diseñada con la privacidad como prioridad. Todos sus datos financieros se almacenan ÚNICAMENTE en su dispositivo. No recopilamos, transmitimos ni almacenamos ningún dato financiero en nuestros servidores.
+**Compromiso de Privacidad**: la Aplicación está diseñada con la privacidad como
+prioridad. **Todos sus datos financieros se almacenan ÚNICAMENTE en su dispositivo.**
+No recopilamos, transmitimos ni almacenamos ningún dato financiero en nuestros
+servidores. Lo único que puede viajar a nuestro servidor es un contexto **anónimo y
+opcional** que se describe en la sección 3.
 
-## 2. Información que NO Recopilamos
+## 2. Información que NUNCA sale de su dispositivo
 
-Finance Tracker NO recopila, almacena ni transmite:
+La Aplicación NO recopila, NO almacena en servidores y NO transmite:
 
-- ❌ Datos financieros (transacciones, ingresos, gastos)
-- ❌ Información bancaria
-- ❌ Números de tarjetas de crédito
-- ❌ Información de identificación personal
-- ❌ Ubicación geográfica
+- ❌ Datos financieros (transacciones, montos, ingresos, gastos, presupuestos, metas, deudas)
+- ❌ Información bancaria ni credenciales de bancos
+- ❌ Números de tarjetas
+- ❌ Información de identificación personal (nombre, correo, teléfono)
+- ❌ Ubicación geográfica (no usamos GPS)
 - ❌ Contactos
 - ❌ Fotos o archivos multimedia
-- ❌ Historial de navegación
+- ❌ Audio del micrófono (ver sección 6)
+- ❌ Contenido de notificaciones (ver sección 7)
+- ❌ Identificadores de publicidad (no usamos IDFA en iOS ni AAID en Android, y no hay rastreo entre apps)
 
-## 3. Almacenamiento Local
+## 3. Estadísticas anónimas (opcional, con interruptor)
 
-Todos los datos que usted ingresa en Finance Tracker se almacenan ÚNICAMENTE en su dispositivo mediante:
+Para saber cuántas personas usan la Aplicación y en qué versiones/idiomas mejorar,
+la Aplicación puede enviar a nuestro propio servidor, **como máximo una vez al día**,
+un contexto **anónimo**:
 
-- **Almacenamiento local**: Base de datos Hive (almacenamiento local encriptado)
-- **Preferencias**: SharedPreferences para configuraciones de la app
-- **Archivos de backup**: Guardados localmente en su dispositivo (carpeta de Descargas)
+- Un **identificador de instalación aleatorio** generado por la propia Aplicación
+  (no proviene de su identidad, de su cuenta de Google/Apple ni de identificadores
+  de publicidad; no permite saber quién es usted).
+- Plataforma (Android o iOS) y versión de la Aplicación.
+- Idioma de la Aplicación.
+- El **país que usted eligió** en Ajustes (nunca su ubicación real; si no elige
+  país, no viaja ninguno).
+- Si la instalación tiene la versión Premium.
 
-**Importante**: Si desinstala la aplicación, todos sus datos se eliminarán permanentemente de su dispositivo.
+Puntos importantes:
 
-## 4. Servicios de Terceros
+- ✅ **Es opcional**: la primera vez se le explica dentro de la Aplicación y puede
+  apagarlo en cualquier momento en **Ajustes → "Compartir estadísticas anónimas"**.
+  Apagarlo no cambia ninguna función.
+- ✅ **No incluye ningún dato financiero ni personal.**
+- ✅ Viaja **cifrado** (HTTPS) hacia nuestro propio servidor; no se comparte con
+  terceros ni se vende.
+- ✅ **Eliminación**: el identificador no está vinculado a su identidad. Si borra
+  los datos de la Aplicación (o la reinstala), se genera un identificador nuevo y
+  el anterior queda huérfano.
 
-Finance Tracker utiliza los siguientes servicios de terceros que pueden recopilar información limitada:
+## 4. Funciones que usan nuestro servidor
 
-### 4.1 Google Play Services
-- **Propósito**: Funcionalidad básica de Android
-- **Datos recopilados**: Identificador de dispositivo anónimo
-- **Política de privacidad**: https://policies.google.com/privacy
+Nuestro servidor (`api.luxor-services.com`, operado por Luxor Services) atiende
+además estas funciones. La Aplicación funciona completa aunque el servidor no esté
+disponible.
 
-### 4.2 Google Fonts
-- **Propósito**: Tipografías de la aplicación
-- **Datos recopilados**: Ninguno (fuentes descargadas localmente)
-- **Política de privacidad**: https://developers.google.com/fonts/faq/privacy
+### 4.1 Avisos dentro de la app
+La Aplicación consulta al abrir si hay avisos del desarrollador (novedades,
+mantenimiento o avisos importantes de seguridad). Esta consulta entrega contenido a
+la Aplicación; no publica datos suyos.
 
-### 4.3 In-App Purchases (Compras dentro de la app)
-- **Propósito**: Compra de versión Premium
-- **Proveedor**: Google Play Billing
-- **Datos recopilados**: Información de transacción (manejada por Google Play)
-- **Nota**: No tenemos acceso a información de pago
-- **Política de privacidad**: https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice
+### 4.2 Soporte dentro de la app (tickets)
+Si usted decide contactar soporte desde la Aplicación, se envía **únicamente lo que
+usted escribe** (asunto y mensaje) junto con contexto técnico para poder ayudarle:
+plataforma, versión de la Aplicación, idioma y el identificador anónimo de
+instalación (para mostrarle las respuestas en su dispositivo). No se requiere correo
+ni ningún dato personal. Los mensajes de soporte se conservan mientras el hilo esté
+activo y puede dejar de usar esta función cuando quiera.
 
-### 4.4 Local Notifications
-- **Propósito**: Recordatorios de registro de gastos
-- **Datos recopilados**: Ninguno
-- **Nota**: Las notificaciones se generan localmente en su dispositivo
+### 4.3 Encuestas
+Ocasionalmente la Aplicación puede mostrar una encuesta breve y opcional. Solo se
+envía lo que usted responda, de forma anónima.
 
-## 5. Permisos de la Aplicación
+Nuestra infraestructura usa **Cloudflare** como red intermediaria de tránsito
+(protección y cifrado del tráfico). Cloudflare procesa el tráfico como proveedor de
+infraestructura: https://www.cloudflare.com/privacypolicy/
 
-Finance Tracker solicita los siguientes permisos:
+## 5. Almacenamiento local
 
-### Permisos Obligatorios:
-- **Almacenamiento**: Para guardar y leer backups de sus datos
-- **Notificaciones**: Para enviar recordatorios (opcional, puede desactivarse)
+Todos los datos que usted ingresa se almacenan ÚNICAMENTE en su dispositivo:
 
-### Permisos Opcionales:
-- **Biometría/Huella digital**: Para desbloquear la app con huella o Face ID (solo si lo activa)
+- **Base de datos local** (Hive) para sus movimientos, cuentas, metas, etc.
+- **Preferencias** del dispositivo para configuraciones de la Aplicación.
+- **Archivos de backup**: se guardan en su dispositivo (en Android, típicamente en
+  Descargas; en iOS, en el almacenamiento de la Aplicación o donde usted elija al
+  compartir).
 
-**Nota**: Todos los permisos son utilizados ÚNICAMENTE en su dispositivo. No se transmite información a servidores externos.
+**Importante**: si desinstala la Aplicación, sus datos locales se eliminan del
+dispositivo. Le recomendamos exportar un backup antes de cambiar de teléfono.
 
-## 6. Seguridad de Datos
+## 6. Micrófono y dictado por voz (opcional)
 
-Tomamos la seguridad de sus datos muy en serio:
+La Aplicación permite **dictar** un movimiento por voz. Si usted usa esta función:
 
-- ✅ **Almacenamiento local encriptado**: Todos los datos se guardan de forma segura en su dispositivo
-- ✅ **PIN de seguridad**: Opción de proteger la app con PIN
-- ✅ **Autenticación biométrica**: Soporte para huella digital y Face ID
-- ✅ **Sin transmisión de datos**: Ningún dato sale de su dispositivo
-- ✅ **Sin cuentas**: No requiere registro ni inicio de sesión
+- El reconocimiento de voz lo realiza el **servicio del sistema** de su teléfono
+  (Google en Android, Apple en iOS), conforme a sus políticas. Según el dispositivo,
+  ese procesamiento puede ocurrir en el propio teléfono o en los servidores de
+  Google/Apple.
+- Nosotros **no grabamos ni almacenamos audio**; la Aplicación solo recibe el texto
+  reconocido, que queda guardado localmente como cualquier otro movimiento.
+- El acceso al micrófono (y en iOS al reconocimiento de voz) se solicita con permiso
+  explícito y solo se usa mientras usted dicta.
 
-## 7. Backups y Exportación
+## 7. Captura de notificaciones bancarias (solo Android, beta, opt-in)
 
-Finance Tracker permite:
+En Android existe una función **experimental y desactivada por defecto** que, SOLO si
+usted la activa en Ajustes, lee las notificaciones de las apps de bancos que usted
+autorice para sugerirle movimientos ya escritos.
 
-- **Backups manuales**: Exportar sus datos a archivos JSON
-- **Backups automáticos** (Premium): Backups programados guardados localmente
-- **Exportación a CSV/PDF**: Para análisis en Excel u otras herramientas
+- Requiere que usted conceda explícitamente el **acceso a notificaciones** del
+  sistema y puede revocarlo cuando quiera.
+- Todo el procesamiento ocurre **en su dispositivo**. El contenido de las
+  notificaciones **jamás se transmite** a nuestros servidores ni a terceros.
+- Esta función no existe en iOS (el sistema no lo permite).
 
-**Importante**: Los archivos de backup se guardan en su dispositivo (carpeta de Descargas). Usted es responsable de la seguridad de estos archivos si decide compartirlos o subirlos a servicios en la nube.
+## 8. Compras dentro de la app (Premium)
 
-## 8. Datos de Menores de Edad
+La versión Premium es un **pago único** (no vendemos suscripciones).
 
-Finance Tracker no está dirigida a menores de 13 años. No recopilamos intencionalmente información personal de niños menores de 13 años. Si descubre que un niño nos ha proporcionado información personal, contáctenos para eliminarla.
+- **Android**: la compra la procesa **Google Play Billing**.
+  Política: https://policies.google.com/privacy
+- **iOS**: la compra la procesa el sistema de compras de **Apple (App Store)**.
+  Política: https://www.apple.com/legal/privacy/
+- Nosotros **no vemos ni almacenamos** su información de pago. La Aplicación solo
+  recibe de la tienda la confirmación de la compra para desbloquear Premium.
 
-## 9. Cambios a Esta Política de Privacidad
+## 9. Permisos de la Aplicación
 
-Podemos actualizar nuestra Política de Privacidad ocasionalmente. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de "Última actualización".
+- **Notificaciones**: recordatorios locales (vencimientos, recurrentes). Opcional.
+- **Micrófono** (y **Reconocimiento de voz** en iOS): solo para el dictado por voz,
+  cuando usted lo usa (sección 6).
+- **Face ID / huella digital**: para desbloquear la Aplicación si usted activa el
+  bloqueo. La verificación biométrica la hace el sistema; nosotros nunca vemos ni
+  almacenamos sus datos biométricos.
+- **Almacenamiento / documentos**: para guardar y leer sus backups y exportaciones.
+- **Acceso a notificaciones** (solo Android, opcional): únicamente si activa la
+  función de la sección 7.
 
-Se le recomienda revisar esta Política de Privacidad periódicamente para cualquier cambio.
+Todos los permisos se usan en su dispositivo. Puede revocarlos en los ajustes del
+sistema (Android o iOS) cuando quiera.
 
-## 10. Sus Derechos
+## 10. Seguridad
 
-Usted tiene derecho a:
+- ✅ Datos financieros solo en su dispositivo, con almacenamiento local cifrado.
+- ✅ Bloqueo opcional con PIN y biometría (Face ID / huella).
+- ✅ Comunicación con nuestro servidor exclusivamente por **HTTPS**.
+- ✅ Sin cuentas: no hay registro ni inicio de sesión, y por tanto no existen
+  contraseñas suyas que proteger o filtrar.
 
-- ✅ **Acceder a sus datos**: Todos sus datos están en su dispositivo, accesibles en cualquier momento
-- ✅ **Eliminar sus datos**: Puede eliminar todos los datos desde la configuración de la app o desinstalando la aplicación
-- ✅ **Exportar sus datos**: Puede exportar todos sus datos a CSV o JSON en cualquier momento
-- ✅ **Controlar permisos**: Puede revocar permisos desde la configuración de Android
+## 11. Datos de menores de edad
 
-## 11. Cumplimiento Legal
+La Aplicación no está dirigida a menores de 13 años y no recopilamos
+intencionalmente información personal de menores. Si cree que un menor nos ha
+proporcionado información, contáctenos para eliminarla.
 
-Esta aplicación cumple con:
+## 12. Sus derechos
 
-- **GDPR** (Reglamento General de Protección de Datos de la UE)
-- **CCPA** (Ley de Privacidad del Consumidor de California)
-- **Políticas de Google Play Store**
+- ✅ **Acceder a sus datos**: están en su dispositivo, visibles en la Aplicación.
+- ✅ **Exportarlos**: a CSV o backup completo, cuando quiera.
+- ✅ **Eliminarlos**: desde la propia Aplicación o desinstalándola.
+- ✅ **Apagar las estadísticas anónimas**: Ajustes → "Compartir estadísticas
+  anónimas".
+- ✅ **Revocar permisos**: desde los ajustes de Android o iOS.
 
-## 12. Contacto
+Para cualquier solicitud adicional de privacidad, escríbanos al correo de contacto.
 
-Si tiene preguntas sobre esta Política de Privacidad, contáctenos:
+## 13. Cambios a esta política
+
+Podemos actualizar esta Política de Privacidad ocasionalmente. Publicaremos la nueva
+versión en esta página actualizando la fecha de "Última actualización". Le
+recomendamos revisarla periódicamente.
+
+## 14. Contacto
 
 - **Email**: cuentas_desarrollo_939@proton.me
 - **Sitio web**: https://luxor-services.com
 - **Desarrollador**: Luxor Services
 
-## 13. Resumen Ejecutivo
+## 15. Resumen ejecutivo
 
 **En pocas palabras:**
 
-✅ Finance Tracker NO recopila sus datos financieros  
-✅ Todo se guarda SOLO en su dispositivo  
-✅ NO hay servidores ni cuentas  
-✅ NO compartimos información con terceros  
-✅ Usted tiene control total de sus datos  
-✅ Puede eliminar todo en cualquier momento  
+✅ Sus datos financieros NUNCA salen de su teléfono
+✅ No hay cuentas, ni rastreo, ni publicidad, ni venta de datos
+✅ Lo único que puede viajar es una estadística anónima opcional (con interruptor)
+✅ Los avisos, encuestas y el soporte usan nuestro propio servidor, cifrado y sin datos personales
+✅ Las compras las procesan Google Play / App Store; no vemos su información de pago
+✅ Usted tiene control total: exportar, borrar y apagar todo cuando quiera
 
 **Su privacidad es nuestra prioridad.**
 
 ---
 
-**Versión**: 1.0  
-**Fecha de vigencia**: [Fecha actual]  
+**Versión**: 2.0
+**Fecha de vigencia**: 16 de julio de 2026
 **Idioma**: Español
+**Plataformas**: Android (Google Play) e iOS (App Store)
 
 ---
 
 ## Consentimiento
 
-Al usar Finance Tracker, usted acepta esta Política de Privacidad.
-
-Si no está de acuerdo con esta política, por favor no use la aplicación.
+Al usar la Aplicación, usted acepta esta Política de Privacidad. Si no está de
+acuerdo, por favor no use la Aplicación.
