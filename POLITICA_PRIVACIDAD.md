@@ -1,6 +1,6 @@
 # Política de Privacidad — Gastos y Ahorro - Luxor
 
-**Última actualización**: 16 de julio de 2026
+**Última actualización**: 22 de octubre de 2026
 
 **Desarrollador**: Luxor Services
 **Contacto**: cuentas_desarrollo_939@proton.me
@@ -105,6 +105,10 @@ infraestructura: https://www.cloudflare.com/privacypolicy/
 - **Búsqueda de direcciones (geocodificación)**: si usted busca una dirección en el
   mapa, esa búsqueda la resuelve el servicio del sistema de su teléfono
   (Apple/Google) conforme a sus políticas.
+- **Lectura de recibos (ML Kit de Google)**: el texto de un recibo se reconoce en
+  su teléfono con ML Kit de Google, que envía a Google datos técnicos de uso y
+  rendimiento del propio servicio (**nunca la foto** ni el texto del recibo).
+  Condiciones: https://developers.google.com/ml-kit/terms
 
 ## 5. Almacenamiento local
 
@@ -112,9 +116,17 @@ Todos los datos que usted ingresa se almacenan ÚNICAMENTE en su dispositivo:
 
 - **Base de datos local** (Hive) para sus movimientos, cuentas, metas, etc.
 - **Preferencias** del dispositivo para configuraciones de la Aplicación.
-- **Archivos de backup**: se guardan en su dispositivo (en Android, típicamente en
-  Descargas; en iOS, en el almacenamiento de la Aplicación o donde usted elija al
-  compartir).
+- **Archivos de backup y exportaciones** (CSV, Excel, PDF): se guardan en su
+  dispositivo (en Android, típicamente en Descargas; en iOS, en el almacenamiento de
+  la Aplicación o donde usted elija al compartir). **Estos archivos no van
+  cifrados**: quien tenga el archivo puede ver sus datos, así que guárdelos en un
+  lugar seguro.
+- **Copia del respaldo automático fuera del teléfono (opcional)**: en iPhone, si
+  activa «Copia en iCloud», el respaldo automático se guarda en **su iCloud
+  personal** (Apple), no en nuestros servidores. En Android, si elige una carpeta,
+  el respaldo automático se copia en ella (por ejemplo, una carpeta de Google Drive
+  o de Documentos), bajo las condiciones de ese servicio. Nosotros no recibimos
+  esos archivos.
 
 **Importante**: si desinstala la Aplicación, sus datos locales se eliminan del
 dispositivo. Le recomendamos exportar un backup antes de cambiar de teléfono.
