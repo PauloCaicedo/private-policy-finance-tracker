@@ -1,235 +1,145 @@
-# Política de Privacidad — Gastos y Ahorro - Luxor
+# Política de privacidad — Gastos y Ahorro - Luxor
 
-**Última actualización**: 16 de julio de 2026
+Vigente desde el 9 de noviembre de 2026 · Aplica a la app «Gastos y Ahorro» para iOS y Android.
 
-**Desarrollador**: Luxor Services
-**Contacto**: cuentas_desarrollo_939@proton.me
-**Sitio web**: https://luxor-services.com
+[Read in English ↓](#en)
 
-Esta política aplica a la aplicación **"Gastos y Ahorro - Luxor"** (también conocida
-como Finance Tracker, paquete `com.luxorservices.financetracker`) en **Android
-(Google Play)** y en **iOS (App Store)**.
+**En 30 segundos:** tus movimientos, cuentas y saldos se guardan **solo en tu teléfono**, cifrados, y nunca los enviamos a nadie. No pedimos cuenta ni correo y no mostramos anuncios. Abajo te contamos, sin letra pequeña, los pocos datos técnicos que sí salen del teléfono y para qué.
 
-## 1. Introducción
+## 1. Quién es el responsable
 
-Luxor Services ("nosotros", "nuestro" o "nos") opera la aplicación móvil Gastos y
-Ahorro - Luxor (en adelante, "la Aplicación").
+La app «Gastos y Ahorro» es desarrollada por **Luxor Services**. Para cualquier tema de privacidad escríbenos a [cuentas_desarrollo_939@proton.me](mailto:cuentas_desarrollo_939@proton.me) o desde la app, en Ajustes › Ayuda y soporte.
 
-Esta página le informa sobre nuestras políticas con respecto a la recopilación, uso y
-divulgación de datos cuando utiliza nuestra Aplicación.
+## 2. Qué guarda la app y dónde
 
-**Compromiso de Privacidad**: la Aplicación está diseñada con la privacidad como
-prioridad. **Todos sus datos financieros se almacenan ÚNICAMENTE en su dispositivo.**
-No recopilamos, transmitimos ni almacenamos ningún dato financiero en nuestros
-servidores. Lo único que puede viajar a nuestro servidor es un contexto **anónimo y
-opcional** que se describe en la sección 3.
+Todo lo que registras — movimientos, cuentas, categorías, presupuestos, metas, deudas, viajes, fotos de recibos y tus preferencias — se guarda en una base de datos **local y cifrada dentro de tu dispositivo**. Esos datos financieros **nunca** se envían a nuestros servidores.
 
-## 2. Información que NUNCA sale de su dispositivo
+## 3. Qué sale de tu teléfono
 
-La Aplicación NO recopila, NO almacena en servidores y NO transmite:
+- **Avisos, encuestas y soporte** — cada vez que abres la app (y al volver a ella si pasaron 6 horas) enviamos a *api.luxor-services.com* un identificador aleatorio de esta instalación, tu plataforma, la versión de la app, tu idioma, el país que elegiste y si tienes Premium. Lo usamos para mostrarte avisos importantes y encuestas, y para revisar si soporte te respondió. No incluye nada de tus finanzas.
+- **Estadísticas anónimas** — una vez al día, si dejas activadas las «estadísticas anónimas», enviamos esos mismos datos técnicos para saber cuántas personas usan la app. Puedes apagarlas cuando quieras en Ajustes › Datos y Privacidad.
+- **Lo que tú nos escribes** — el texto de tus mensajes a soporte y tus respuestas a encuestas.
+- **Lectura de recibos** — el texto de un recibo se reconoce **en tu teléfono** con ML Kit de Google, que envía a Google datos técnicos de uso y rendimiento (nunca la foto).
+- **Dictado y direcciones** — si dictas un movimiento por voz o guardas el lugar de un movimiento, el audio o las coordenadas pasan por el servicio de tu sistema (Google o Apple) para convertirlos en texto o en una dirección.
+- **Mapa** — al abrir el mapa de gastos, las imágenes se cargan de *OpenStreetMap*, que ve tu dirección IP y la zona que miras, como cualquier página web.
+- **Tasas de cambio** — si usas varias monedas, se consultan tasas públicas en *api.frankfurter.app* y *open.er-api.com*. Solo se envían códigos de moneda (por ejemplo «USD»).
+- **Tienda de apps** — las compras, reseñas y actualizaciones las procesa Apple (App Store) o Google (Play Store). Nunca vemos tus datos de pago.
 
-- ❌ Datos financieros (transacciones, montos, ingresos, gastos, presupuestos, metas, deudas)
-- ❌ Información bancaria ni credenciales de bancos
-- ❌ Números de tarjetas
-- ❌ Información de identificación personal (nombre, correo, teléfono)
-- ❌ Ubicación geográfica (no usamos GPS)
-- ❌ Contactos
-- ❌ Fotos o archivos multimedia
-- ❌ Audio del micrófono (ver sección 6)
-- ❌ Contenido de notificaciones (ver sección 7)
-- ❌ Identificadores de publicidad (no usamos IDFA en iOS ni AAID en Android, y no hay rastreo entre apps)
+Todo viaja cifrado (HTTPS). No vendemos datos, no los usamos para publicidad ni para rastrearte entre apps, y no los vinculamos a tu identidad.
 
-## 3. Estadísticas anónimas (opcional, con interruptor)
+## 4. Asistente de inteligencia artificial
 
-Para saber cuántas personas usan la Aplicación y en qué versiones/idiomas mejorar,
-la Aplicación puede enviar a nuestro propio servidor, **como máximo una vez al día**,
-un contexto **anónimo**:
+El asistente es la única función que manda datos financieros fuera de tu teléfono, y solo lo hace **cuando tú se lo pides** y después de que aceptas, la primera vez, una explicación de qué viaja y a quién. Sin ese permiso no se envía nada; puedes retirarlo cuando quieras en Ajustes › Datos y privacidad.
 
-- Un **identificador de instalación aleatorio** generado por la propia Aplicación
-  (no proviene de su identidad, de su cuenta de Google/Apple ni de identificadores
-  de publicidad; no permite saber quién es usted).
-- Plataforma (Android o iOS) y versión de la Aplicación.
-- Idioma de la Aplicación.
-- El **país que usted eligió** en Ajustes (nunca su ubicación real; si no elige
-  país, no viaja ninguno).
-- Si la instalación tiene la versión Premium.
+- **Qué viaja** — un resumen de tus cifras: totales de gasto por categoría del mes y de los tres meses anteriores, ingresos del mes, pagos fijos detectados (descripción, monto y frecuencia) y el estado de tus presupuestos. Con Premium, además la descripción (recortada), el monto, la categoría, la fecha y las etiquetas de los movimientos del mes, tus metas (nombre, meta y ahorrado) y el total de tus deudas, tarjetas y créditos.
+- **Qué nunca viaja** — tus notas, fotos y recibos, tu ubicación, los nombres de tus cuentas y tarjetas, los saldos por cuenta, los nombres de las personas en Deudas, tu PIN y ningún dato que te identifique. Viaja el mismo identificador aleatorio de la instalación de siempre, no tu nombre ni tu correo.
+- **A quién** — el resumen y tu pregunta pasan por *api.luxor-services.com* hacia un proveedor de inteligencia artificial que procesa los datos en el país que te indicamos en la pantalla de permiso (puede ser fuera de Colombia: es una transferencia internacional de datos, Ley 1581 de 2012). El proveedor no guarda la conversación ni la usa para entrenar sus modelos.
+- **Qué guardamos** — en nuestro servidor solo cuántas preguntas hiciste, cuántas palabras usaron y cuánto costaron; nunca el texto de la pregunta, el resumen ni la respuesta. Las últimas respuestas se guardan en tu teléfono y puedes borrarlas con tus datos.
+- **Reportar una respuesta** — si una respuesta te parece equivocada u ofensiva, puedes reportarla desde la misma respuesta: abre un mensaje a soporte con la pregunta y la respuesta para que lo revisemos.
 
-Puntos importantes:
+## 5. Permisos opcionales
 
-- ✅ **Es opcional**: la primera vez se le explica dentro de la Aplicación y puede
-  apagarlo en cualquier momento en **Ajustes → "Compartir estadísticas anónimas"**.
-  Apagarlo no cambia ninguna función.
-- ✅ **No incluye ningún dato financiero ni personal.**
-- ✅ Viaja **cifrado** (HTTPS) hacia nuestro propio servidor; no se comparte con
-  terceros ni se vende.
-- ✅ **Eliminación**: el identificador no está vinculado a su identidad. Si borra
-  los datos de la Aplicación (o la reinstala), se genera un identificador nuevo y
-  el anterior queda huérfano.
+La app funciona sin conceder ninguno de estos permisos. Si los activas, se usan solo para esto:
 
-## 4. Funciones que usan nuestro servidor
+- **Cámara y fotos** — tomar o adjuntar fotos de recibos.
+- **Micrófono y reconocimiento de voz** — dictar movimientos.
+- **Ubicación** — guardar, si quieres, el lugar de un movimiento.
+- **Face ID / huella** — bloquear la app. La biometría la gestiona el sistema; la app nunca la ve ni la guarda.
+- **Notificaciones** — recordatorios y avisos que se generan en tu teléfono.
 
-Nuestro servidor (`api.luxor-services.com`, operado por Luxor Services) atiende
-además estas funciones. La Aplicación funciona completa aunque el servidor no esté
-disponible.
+## 6. Función exclusiva de Android: lectura de notificaciones
 
-### 4.1 Avisos dentro de la app
-La Aplicación consulta al abrir si hay avisos del desarrollador (novedades,
-mantenimiento o avisos importantes de seguridad). Esta consulta entrega contenido a
-la Aplicación; no publica datos suyos.
+En Android existe una función **opcional y desactivada por defecto** que, solo si la activas, lee las notificaciones de tus apps bancarias para sugerirte movimientos. Ese procesamiento ocurre **íntegramente en tu dispositivo** y no se envía a nadie. Puedes desactivarla cuando quieras en Ajustes.
 
-### 4.2 Soporte dentro de la app (tickets)
-Si usted decide contactar soporte desde la Aplicación, se envía **únicamente lo que
-usted escribe** (asunto y mensaje) junto con contexto técnico para poder ayudarle:
-plataforma, versión de la Aplicación, idioma y el identificador anónimo de
-instalación (para mostrarle las respuestas en su dispositivo). No se requiere correo
-ni ningún dato personal. Los mensajes de soporte se conservan mientras el hilo esté
-activo y puede dejar de usar esta función cuando quiera.
+## 7. Respaldos y exportaciones
 
-### 4.3 Encuestas
-Ocasionalmente la Aplicación puede mostrar una encuesta breve y opcional. Solo se
-envía lo que usted responda, de forma anónima.
+Puedes exportar tus datos (CSV, Excel, PDF) o crear respaldos cuando quieras. **Esos archivos no van cifrados**: quien tenga el archivo puede ver tus datos, así que guárdalos en un lugar seguro. En iPhone, si activas el respaldo en iCloud, se guarda en **tu** iCloud personal. Si compartes un archivo por otra app (correo, nube, mensajería), aplican las políticas de esa app.
 
-Nuestra infraestructura usa **Cloudflare** como red intermediaria de tránsito
-(protección y cifrado del tráfico). Cloudflare procesa el tráfico como proveedor de
-infraestructura: https://www.cloudflare.com/privacypolicy/
+## 8. Cómo borrar tus datos
 
-### 4.4 Otros servicios que la Aplicación consulta
+Tus datos financieros se borran desde la propia app (Ajustes › Eliminar todos los datos) o desinstalándola. Para borrar lo poco que guardamos en el servidor (el identificador de instalación, tus mensajes a soporte y tus respuestas a encuestas), escríbenos desde Ajustes › Ayuda y soporte o al correo de arriba.
 
-- **Tasas de cambio**: para convertir entre divisas, la Aplicación consulta tasas
-  públicas (frankfurter.app y open.er-api.com). Solo se solicita la tasa; **no viaja
-  ningún dato suyo** en esas consultas.
-- **Mapa de gastos (OpenStreetMap)**: los mosaicos del mapa se descargan de
-  servidores de OpenStreetMap al mover el mapa, como en cualquier app de mapas.
-  Las ubicaciones que usted asigna a sus gastos se guardan **solo en su
-  dispositivo** y no se envían a nuestros servidores.
-- **Búsqueda de direcciones (geocodificación)**: si usted busca una dirección en el
-  mapa, esa búsqueda la resuelve el servicio del sistema de su teléfono
-  (Apple/Google) conforme a sus políticas.
+## 9. Menores
 
-## 5. Almacenamiento local
+La app no está dirigida a menores, no pide datos personales y no contiene anuncios ni contenido inapropiado.
 
-Todos los datos que usted ingresa se almacenan ÚNICAMENTE en su dispositivo:
+## 10. Cambios a esta política
 
-- **Base de datos local** (Hive) para sus movimientos, cuentas, metas, etc.
-- **Preferencias** del dispositivo para configuraciones de la Aplicación.
-- **Archivos de backup**: se guardan en su dispositivo (en Android, típicamente en
-  Descargas; en iOS, en el almacenamiento de la Aplicación o donde usted elija al
-  compartir).
+Si esta política cambia, actualizaremos esta página y la fecha de vigencia. Los cambios importantes se anunciarán dentro de la app.
 
-**Importante**: si desinstala la Aplicación, sus datos locales se eliminan del
-dispositivo. Le recomendamos exportar un backup antes de cambiar de teléfono.
+## 11. Contacto
 
-## 6. Micrófono y dictado por voz (opcional)
-
-La Aplicación permite **dictar** un movimiento por voz. Si usted usa esta función:
-
-- El reconocimiento de voz lo realiza el **servicio del sistema** de su teléfono
-  (Google en Android, Apple en iOS), conforme a sus políticas. Según el dispositivo,
-  ese procesamiento puede ocurrir en el propio teléfono o en los servidores de
-  Google/Apple.
-- Nosotros **no grabamos ni almacenamos audio**; la Aplicación solo recibe el texto
-  reconocido, que queda guardado localmente como cualquier otro movimiento.
-- El acceso al micrófono (y en iOS al reconocimiento de voz) se solicita con permiso
-  explícito y solo se usa mientras usted dicta.
-
-## 7. Captura de notificaciones bancarias (solo Android, beta, opt-in)
-
-En Android existe una función **experimental y desactivada por defecto** que, SOLO si
-usted la activa en Ajustes, lee las notificaciones de las apps de bancos que usted
-autorice para sugerirle movimientos ya escritos.
-
-- Requiere que usted conceda explícitamente el **acceso a notificaciones** del
-  sistema y puede revocarlo cuando quiera.
-- Todo el procesamiento ocurre **en su dispositivo**. El contenido de las
-  notificaciones **jamás se transmite** a nuestros servidores ni a terceros.
-- Esta función no existe en iOS (el sistema no lo permite).
-
-## 8. Compras dentro de la app (Premium)
-
-La versión Premium es un **pago único** (no vendemos suscripciones).
-
-- **Android**: la compra la procesa **Google Play Billing**.
-  Política: https://policies.google.com/privacy
-- **iOS**: la compra la procesa el sistema de compras de **Apple (App Store)**.
-  Política: https://www.apple.com/legal/privacy/
-- Nosotros **no vemos ni almacenamos** su información de pago. La Aplicación solo
-  recibe de la tienda la confirmación de la compra para desbloquear Premium.
-
-## 9. Permisos de la Aplicación
-
-- **Notificaciones**: recordatorios locales (vencimientos, recurrentes). Opcional.
-- **Micrófono** (y **Reconocimiento de voz** en iOS): solo para el dictado por voz,
-  cuando usted lo usa (sección 6).
-- **Face ID / huella digital**: para desbloquear la Aplicación si usted activa el
-  bloqueo. La verificación biométrica la hace el sistema; nosotros nunca vemos ni
-  almacenamos sus datos biométricos.
-- **Almacenamiento / documentos**: para guardar y leer sus backups y exportaciones.
-- **Acceso a notificaciones** (solo Android, opcional): únicamente si activa la
-  función de la sección 7.
-
-Todos los permisos se usan en su dispositivo. Puede revocarlos en los ajustes del
-sistema (Android o iOS) cuando quiera.
-
-## 10. Seguridad
-
-- ✅ Datos financieros solo en su dispositivo, con almacenamiento local cifrado.
-- ✅ Bloqueo opcional con PIN y biometría (Face ID / huella).
-- ✅ Comunicación con nuestro servidor exclusivamente por **HTTPS**.
-- ✅ Sin cuentas: no hay registro ni inicio de sesión, y por tanto no existen
-  contraseñas suyas que proteger o filtrar.
-
-## 11. Datos de menores de edad
-
-La Aplicación no está dirigida a menores de 13 años y no recopilamos
-intencionalmente información personal de menores. Si cree que un menor nos ha
-proporcionado información, contáctenos para eliminarla.
-
-## 12. Sus derechos
-
-- ✅ **Acceder a sus datos**: están en su dispositivo, visibles en la Aplicación.
-- ✅ **Exportarlos**: a CSV o backup completo, cuando quiera.
-- ✅ **Eliminarlos**: desde la propia Aplicación o desinstalándola.
-- ✅ **Apagar las estadísticas anónimas**: Ajustes → "Compartir estadísticas
-  anónimas".
-- ✅ **Revocar permisos**: desde los ajustes de Android o iOS.
-
-Para cualquier solicitud adicional de privacidad, escríbanos al correo de contacto.
-
-## 13. Cambios a esta política
-
-Podemos actualizar esta Política de Privacidad ocasionalmente. Publicaremos la nueva
-versión en esta página actualizando la fecha de "Última actualización". Le
-recomendamos revisarla periódicamente.
-
-## 14. Contacto
-
-- **Email**: cuentas_desarrollo_939@proton.me
-- **Sitio web**: https://luxor-services.com
-- **Desarrollador**: Luxor Services
-
-## 15. Resumen ejecutivo
-
-**En pocas palabras:**
-
-✅ Sus datos financieros NUNCA salen de su teléfono
-✅ No hay cuentas, ni rastreo, ni publicidad, ni venta de datos
-✅ Lo único que puede viajar es una estadística anónima opcional (con interruptor)
-✅ Los avisos, encuestas y el soporte usan nuestro propio servidor, cifrado y sin datos personales
-✅ Las compras las procesan Google Play / App Store; no vemos su información de pago
-✅ Usted tiene control total: exportar, borrar y apagar todo cuando quiera
-
-**Su privacidad es nuestra prioridad.**
+¿Dudas sobre tu privacidad? Escríbenos: [cuentas_desarrollo_939@proton.me](mailto:cuentas_desarrollo_939@proton.me)
 
 ---
 
-**Versión**: 2.0
-**Fecha de vigencia**: 16 de julio de 2026
-**Idioma**: Español
-**Plataformas**: Android (Google Play) e iOS (App Store)
+<a id="en"></a>
 
----
+# Privacy Policy — Gastos y Ahorro - Luxor
 
-## Consentimiento
+Effective November 9, 2026 · Applies to the "Gastos y Ahorro" app for iOS and Android.
 
-Al usar la Aplicación, usted acepta esta Política de Privacidad. Si no está de
-acuerdo, por favor no use la Aplicación.
+**In 30 seconds:** your transactions, accounts and balances are stored **only on your phone**, encrypted, and we never send them to anyone. No account or email required, and no ads. Below we list, plainly, the few technical details that do leave your phone and why.
+
+## 1. Who we are
+
+"Gastos y Ahorro" is developed by **Luxor Services**. For any privacy matter, write to [cuentas_desarrollo_939@proton.me](mailto:cuentas_desarrollo_939@proton.me) or from the app, in Settings › Help & support.
+
+## 2. What the app stores, and where
+
+Everything you record — transactions, accounts, categories, budgets, goals, debts, trips, receipt photos and your preferences — is kept in a **local, encrypted database on your device**. That financial data is **never** sent to our servers.
+
+## 3. What leaves your phone
+
+- **Notices, surveys and support** — every time you open the app (and when you come back after 6 hours) we send *api.luxor-services.com* a random ID for this install, your platform, app version and language, the country you chose and whether you have Premium. We use it to show you important notices and surveys and to check whether support replied. It includes nothing about your finances.
+- **Anonymous statistics** — once a day, if "anonymous statistics" is on, we send that same technical data to count how many people use the app. You can turn it off anytime in Settings › Data & Privacy.
+- **What you write to us** — your support messages and survey answers.
+- **Receipt scanning** — receipt text is recognized **on your phone** with Google ML Kit, which sends Google technical usage and performance data (never the photo).
+- **Dictation and addresses** — if you dictate a transaction or save where it happened, the audio or coordinates go through your system's service (Google or Apple) to turn them into text or an address.
+- **Map** — when you open the spending map, images load from *OpenStreetMap*, which sees your IP address and the area you view, like any website.
+- **Exchange rates** — if you use several currencies, public rates come from *api.frankfurter.app* and *open.er-api.com*. Only currency codes (such as "USD") are sent.
+- **App store** — purchases, reviews and updates are processed by Apple (App Store) or Google (Play Store). We never see your payment details.
+
+Everything travels encrypted (HTTPS). We don't sell data, use it for advertising or tracking across apps, or link it to your identity.
+
+## 4. AI assistant
+
+The assistant is the only feature that sends financial data off your phone, and it only does so **when you ask it to**, after you accept, the first time, an explanation of what travels and to whom. Without that permission nothing is sent; you can withdraw it any time in Settings › Data & Privacy.
+
+- **What travels** — a summary of your figures: spending totals by category for this month and the previous three, this month's income, detected fixed payments (description, amount and frequency) and the state of your budgets. With Premium, also the (shortened) description, amount, category, date and tags of this month's transactions, your goals (name, target and saved) and the total of your debts, cards and loans.
+- **What never travels** — your notes, photos and receipts, your location, your account and card names, balances per account, the names of people in Debts, your PIN and nothing that identifies you. The same random install ID as always travels, not your name or email.
+- **To whom** — the summary and your question go through *api.luxor-services.com* to an AI provider that processes the data in the country shown on the permission screen (it may be outside Colombia: an international data transfer under Law 1581 of 2012). The provider neither stores the conversation nor uses it to train its models.
+- **What we keep** — on our server only how many questions you asked, how many words they used and what they cost; never the question text, the summary or the answer. Your latest answers are stored on your phone and you can delete them with your data.
+- **Reporting an answer** — if an answer seems wrong or offensive, you can report it from the answer itself: it opens a support message with the question and the answer so we can review it.
+
+## 5. Optional permissions
+
+- **Camera & photos** — take or attach receipt photos.
+- **Microphone & speech recognition** — dictate transactions.
+- **Location** — optionally save where a transaction happened.
+- **Face ID / fingerprint** — lock the app. Biometrics are handled by the system; the app never sees or stores them.
+- **Notifications** — reminders and alerts generated on your phone.
+
+## 6. Android-only feature: notification access
+
+On Android there is an **optional, off-by-default** feature that — only if you enable it — reads your banking apps' notifications to suggest transactions. That processing happens **entirely on your device** and is never sent anywhere. You can turn it off anytime in Settings.
+
+## 7. Backups and exports
+
+You can export your data (CSV, Excel, PDF) or create backups anytime. **These files are not encrypted**: anyone with the file can see your data, so keep it somewhere safe. On iPhone, if you turn on iCloud backup, it's stored in **your** personal iCloud. If you share a file through another app (email, cloud, messaging), that app's policies apply.
+
+## 8. Deleting your data
+
+Delete your financial data from within the app (Settings › Delete all data) or by uninstalling it. To delete the little we keep on our server (the install ID, your support messages and survey answers), write to us from Settings › Help & support or at the email above.
+
+## 9. Children
+
+The app isn't directed at children, asks for no personal data, and contains no ads or inappropriate content.
+
+## 10. Changes to this policy
+
+If this policy changes, we'll update this page and its effective date. Important changes will be announced in the app.
+
+## 11. Contact
+
+Questions? [cuentas_desarrollo_939@proton.me](mailto:cuentas_desarrollo_939@proton.me)
