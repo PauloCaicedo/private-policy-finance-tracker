@@ -1,10 +1,10 @@
 # Política de privacidad — Gastos y Ahorro - Luxor
 
-Vigente desde el 9 de noviembre de 2026 · Aplica a la app «Gastos y Ahorro» para iOS y Android.
+Vigente desde el 10 de noviembre de 2026 · Aplica a la app «Gastos y Ahorro» para iOS y Android.
 
 [Read in English ↓](#en)
 
-**En 30 segundos:** tus movimientos, cuentas y saldos se guardan **solo en tu teléfono**, cifrados, y nunca los enviamos a nadie. No pedimos cuenta ni correo y no mostramos anuncios. Abajo te contamos, sin letra pequeña, los pocos datos técnicos que sí salen del teléfono y para qué.
+**En 30 segundos:** tus movimientos, cuentas y saldos se guardan **solo en tu teléfono**, cifrados. Solo salen si usas el asistente de inteligencia artificial y aceptas su permiso: en ese caso viaja un resumen de tus cifras para responderte (sección 4). No pedimos cuenta ni correo y no mostramos anuncios. Abajo te contamos, sin letra pequeña, lo que sí sale del teléfono y para qué.
 
 ## 1. Quién es el responsable
 
@@ -12,7 +12,7 @@ La app «Gastos y Ahorro» es desarrollada por **Luxor Services**. Para cualquie
 
 ## 2. Qué guarda la app y dónde
 
-Todo lo que registras — movimientos, cuentas, categorías, presupuestos, metas, deudas, viajes, fotos de recibos y tus preferencias — se guarda en una base de datos **local y cifrada dentro de tu dispositivo**. Esos datos financieros **nunca** se envían a nuestros servidores.
+Todo lo que registras — movimientos, cuentas, categorías, presupuestos, metas, deudas, viajes, fotos de recibos y tus preferencias — se guarda en una base de datos **local y cifrada dentro de tu dispositivo**. Esos datos financieros no se envían a nuestros servidores, con una sola excepción: el resumen que viaja cuando le preguntas al asistente de inteligencia artificial con tu permiso (sección 4).
 
 ## 3. Qué sale de tu teléfono
 
@@ -31,11 +31,12 @@ Todo viaja cifrado (HTTPS). No vendemos datos, no los usamos para publicidad ni 
 
 El asistente es la única función que manda datos financieros fuera de tu teléfono, y solo lo hace **cuando tú se lo pides** y después de que aceptas, la primera vez, una explicación de qué viaja y a quién. Sin ese permiso no se envía nada; puedes retirarlo cuando quieras en Ajustes › Datos y privacidad.
 
-- **Qué viaja** — un resumen de tus cifras: totales de gasto por categoría del mes y de los tres meses anteriores, ingresos del mes, pagos fijos detectados (descripción, monto y frecuencia) y el estado de tus presupuestos. Con Premium, además la descripción (recortada), el monto, la categoría, la fecha y las etiquetas de los movimientos del mes, tus metas (nombre, meta y ahorrado) y el total de tus deudas, tarjetas y créditos.
-- **Qué nunca viaja** — tus notas, fotos y recibos, tu ubicación, los nombres de tus cuentas y tarjetas, los saldos por cuenta, los nombres de las personas en Deudas, tu PIN y ningún dato que te identifique. Viaja el mismo identificador aleatorio de la instalación de siempre, no tu nombre ni tu correo.
+- **Qué viaja** — tu pregunta, las últimas preguntas y respuestas de esa conversación y un resumen de tus cifras: ingresos y gastos del mes, totales de gasto por categoría del mes y de los tres meses anteriores (con el nombre de cada categoría), el estado de tus presupuestos y tus pagos fijos, los que registraste y los que la app detecta, con su descripción, monto y frecuencia. Con Premium o con preguntas compradas, además: la descripción (recortada), el monto, la categoría, la fecha y las etiquetas de los movimientos del mes; el saldo de cada cuenta; el cupo, lo usado y los días de corte y pago de tus tarjetas; montos, pagos y fechas de tus deudas, créditos y compras a cuotas; el avance de tus metas, viajes y presupuestos de proyecto; y cómo tienes configurada la app (versión, idioma, moneda, permisos y ajustes) y cuántas cosas has creado. Para explicarte la app, viajan también las partes del manual del asistente que tienen que ver con tu pregunta.
+- **Qué nunca viaja** — los nombres de tus cuentas, tarjetas, metas, viajes, créditos, compras a cuotas y presupuestos de proyecto, ni los nombres de las personas en Deudas: cada uno sale con una etiqueta (por ejemplo «[A1]»), también cuando aparece dentro de tu pregunta o de la descripción de un movimiento, y es tu teléfono el que guarda a qué corresponde y vuelve a poner el nombre al mostrarte la respuesta. Tampoco viajan tus notas, fotos y recibos, tu ubicación ni tu PIN. Viaja el mismo identificador aleatorio de la instalación de siempre, no tu nombre ni tu correo. **Ten en cuenta:** lo demás que tú escribes viaja tal cual. Si pones el nombre de alguien en la descripción de un movimiento o en tu pregunta, ese nombre sale.
 - **A quién** — el resumen y tu pregunta pasan por *api.luxor-services.com* hacia un proveedor de inteligencia artificial que procesa los datos en el país que te indicamos en la pantalla de permiso (puede ser fuera de Colombia: es una transferencia internacional de datos, Ley 1581 de 2012). El proveedor no guarda la conversación ni la usa para entrenar sus modelos.
-- **Qué guardamos** — en nuestro servidor solo cuántas preguntas hiciste, cuántas palabras usaron y cuánto costaron; nunca el texto de la pregunta, el resumen ni la respuesta. Las últimas respuestas se guardan en tu teléfono y puedes borrarlas con tus datos.
-- **Reportar una respuesta** — si una respuesta te parece equivocada u ofensiva, puedes reportarla desde la misma respuesta: abre un mensaje a soporte con la pregunta y la respuesta para que lo revisemos.
+- **Qué guardamos** — en nuestro servidor, cuántas preguntas hiciste, cuántas palabras usaron y cuánto costaron; nunca el texto de la pregunta, el resumen ni la respuesta. Si compras un paquete de preguntas, guardamos también el comprobante que entrega la tienda (un código), el producto y la plataforma, junto al identificador de la instalación, para acreditarlo una sola vez. Las preguntas compradas quedan en esa instalación: si desinstalas la app o borras sus datos, se pierden. Tus conversaciones con el asistente se guardan solo en tu teléfono (no viajan en el respaldo) y puedes borrarlas una por una o con tus datos.
+- **Lo que el asistente hace por ti** — puede proponerte crear o configurar algo en la app (un presupuesto, un pago fijo, un ajuste) o llevarte a una pantalla. Nada se crea ni cambia sin que tú lo confirmes, y nunca borra datos.
+- **Reportar una respuesta** — si una respuesta te parece equivocada u ofensiva, puedes reportarla desde la misma respuesta: abre un mensaje a soporte con la pregunta y la respuesta tal como viajaron (con las etiquetas, sin nombres) para que lo revisemos. Lo ves antes de enviarlo y puedes cambiarlo.
 
 ## 5. Permisos opcionales
 
@@ -77,9 +78,9 @@ Si esta política cambia, actualizaremos esta página y la fecha de vigencia. Lo
 
 # Privacy Policy — Gastos y Ahorro - Luxor
 
-Effective November 9, 2026 · Applies to the "Gastos y Ahorro" app for iOS and Android.
+Effective November 10, 2026 · Applies to the "Gastos y Ahorro" app for iOS and Android.
 
-**In 30 seconds:** your transactions, accounts and balances are stored **only on your phone**, encrypted, and we never send them to anyone. No account or email required, and no ads. Below we list, plainly, the few technical details that do leave your phone and why.
+**In 30 seconds:** your transactions, accounts and balances are stored **only on your phone**, encrypted. They only leave it if you use the AI assistant and accept its permission: in that case a summary of your figures is sent to answer you (section 4). No account or email required, and no ads. Below we list, plainly, what does leave your phone and why.
 
 ## 1. Who we are
 
@@ -87,7 +88,7 @@ Effective November 9, 2026 · Applies to the "Gastos y Ahorro" app for iOS and A
 
 ## 2. What the app stores, and where
 
-Everything you record — transactions, accounts, categories, budgets, goals, debts, trips, receipt photos and your preferences — is kept in a **local, encrypted database on your device**. That financial data is **never** sent to our servers.
+Everything you record — transactions, accounts, categories, budgets, goals, debts, trips, receipt photos and your preferences — is kept in a **local, encrypted database on your device**. That financial data is not sent to our servers, with one exception: the summary that is sent when you ask the AI assistant with your permission (section 4).
 
 ## 3. What leaves your phone
 
@@ -106,11 +107,12 @@ Everything travels encrypted (HTTPS). We don't sell data, use it for advertising
 
 The assistant is the only feature that sends financial data off your phone, and it only does so **when you ask it to**, after you accept, the first time, an explanation of what travels and to whom. Without that permission nothing is sent; you can withdraw it any time in Settings › Data & Privacy.
 
-- **What travels** — a summary of your figures: spending totals by category for this month and the previous three, this month's income, detected fixed payments (description, amount and frequency) and the state of your budgets. With Premium, also the (shortened) description, amount, category, date and tags of this month's transactions, your goals (name, target and saved) and the total of your debts, cards and loans.
-- **What never travels** — your notes, photos and receipts, your location, your account and card names, balances per account, the names of people in Debts, your PIN and nothing that identifies you. The same random install ID as always travels, not your name or email.
+- **What travels** — your question, the latest questions and answers of that conversation, and a summary of your figures: this month's income and spending, spending totals by category for this month and the previous three (with each category's name), the state of your budgets, and your fixed payments, both the ones you recorded and the ones the app detects, with their description, amount and frequency. With Premium or purchased questions, also: the (shortened) description, amount, category, date and tags of this month's transactions; each account's balance; your cards' limit, amount used and statement and due days; amounts, payments and dates of your debts, loans and installment purchases; the progress of your goals, trips and project budgets; and how the app is set up (version, language, currency, permissions and settings) and how many things you have created. To explain the app, the parts of the assistant's manual related to your question are sent too.
+- **What never travels** — the names of your accounts, cards, goals, trips, loans, installment purchases and project budgets, or the names of the people in Debts: each one goes out as a label (for example "[A1]"), also when it appears inside your question or a transaction's description, and it is your phone that keeps what each label means and puts the name back when it shows you the answer. Your notes, photos and receipts, your location and your PIN are never sent either. The same random install ID as always travels, not your name or email. **Keep in mind:** anything else you type is sent as is. If you put someone's name in a transaction's description or in your question, that name goes out.
 - **To whom** — the summary and your question go through *api.luxor-services.com* to an AI provider that processes the data in the country shown on the permission screen (it may be outside Colombia: an international data transfer under Law 1581 of 2012). The provider neither stores the conversation nor uses it to train its models.
-- **What we keep** — on our server only how many questions you asked, how many words they used and what they cost; never the question text, the summary or the answer. Your latest answers are stored on your phone and you can delete them with your data.
-- **Reporting an answer** — if an answer seems wrong or offensive, you can report it from the answer itself: it opens a support message with the question and the answer so we can review it.
+- **What we keep** — on our server, how many questions you asked, how many words they used and what they cost; never the question text, the summary or the answer. If you buy a question pack, we also keep the receipt the store issues (a code), the product and the platform, next to the install ID, so it is credited only once. Purchased questions stay with that install: if you uninstall the app or clear its data, they are lost. Your conversations with the assistant are stored only on your phone (they are not part of the backup) and you can delete them one by one or with your data.
+- **What the assistant does for you** — it can suggest creating or setting up something in the app (a budget, a fixed payment, a setting) or take you to a screen. Nothing is created or changed unless you confirm it, and it never deletes data.
+- **Reporting an answer** — if an answer seems wrong or offensive, you can report it from the answer itself: it opens a support message with the question and the answer as they were sent (with labels, no names) so we can review it. You see it before sending and can change it.
 
 ## 5. Optional permissions
 
